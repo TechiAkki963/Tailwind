@@ -6,9 +6,21 @@
     <title>Document</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="underline">Hello World</h1>
+<body class="flex justify-center items-center bg-slate-900 min-h-screen">
+<div class="bg-gray-700 rounded-lg p-8 max-w-sm w-full shadow-2xl">
+    <h2 class="text-center text-3xl text-white mb-6 font-bold">Login</h2>
+    <form>
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-300" for="">Email</label>
+            <input class="w-full px-3 py-2 bg-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500" type="email" name="placeholder" placeholder="Email">
+        </div>
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-300" for="">Password</label>
+            <input class="w-full px-3 py-2 bg-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500" type="password" name="placeholder" placeholder="Password">
+        </div>
+        <button class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 shadow-2xl" type="submit">Login</button>
+    </form>
+</div>
 
-    <p class="underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consequuntur odit ex delectus neque magnam amet nostrum quasi. Officiis illo voluptas ducimus consequuntur earum cumque aut modi doloremque laboriosam. Consectetur.</p>
 </body>
 </html>
